@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdr. 13; Boodschappenlijst</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bruh">
+    <table id="GroceriesTable">
+        <tr>
+            <th class="left" scope="col">Product</th>
+            <th class="left" scope="col">Prijs</th>
+            <th class="left" scope="col">Aantal</th>
+            <th class="left" scope="col">Subtotaal</th>
+        </tr>
+        <tr>
+            <td class="left" scope="row">Brood</td>
+            <td  class="productPrice">1.00</td>
+            <td><input type="number" class="productQuantity" value="0" min="0"></td>
+            <td  class="productTotalCost"></td>
+        </tr>
+        <tr>
+            <td class="left" scope="row">Broccoli</td>
+            <td  class="productPrice">0.99</td>
+            <td><input type="number" class="productQuantity" value="0" min="0"></td>
+            <td  class="productTotalCost"></td>
+        </tr>
+        <tr>
+            <td class="left" scope="row">Krentenbollen</td>
+            <td  class="productPrice">1.20</td>
+            <td><input type="number" class="productQuantity" value="0" min="0"></td>
+            <td  class="productTotalCost"></td>
+        </tr>
+        <tr>
+            <td class="left" scope="row">Noten</td>
+            <td  class="productPrice">2.99</td>
+            <td><input type="number" class="productQuantity" value="0" min="0"></td>
+            <td  class="productTotalCost"></td>
+        </tr>
+        <tr>
+            <td class="left" colspan="3">Totaal</td>
+            <td  id="totalCost">0</td>
+        </tr>
+    </table>
+    <script src="myscript.js"></script>
+</body>
+</html>
